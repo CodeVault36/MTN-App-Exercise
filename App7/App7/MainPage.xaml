@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App7.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#ffff00" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to MTN App of the Year Exercise !" HorizontalTextAlignment="Center" TextColor="Black" FontSize="36"/>
+        </Frame>
+        <Button Text="Button1" Clicked="Button_Clicked" TextColor="Black" BackgroundColor="#ffff00" CornerRadius="50" Margin="70,20,70,0"/>
+        <Button Text="Button2" Clicked="Button_Clicked_1" TextColor="Black" BackgroundColor="#ffff00" CornerRadius="50" Margin="70,20,70,0"/>
+        <Button Text="Button3" Clicked="Button_Clicked_2" TextColor="Black" BackgroundColor="#ffff00" CornerRadius="50" Margin="70,20,70,0"/>
+    </StackLayout>
+</ContentPage>
